@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-#define IOS ios::sync_with_stdio(0), cin.tie(0), cout.tie(0);
+#define IOS ios::sync_with_stdio(0), cin.tie(0), cout.tie(0)
 #define endl '\n'
 //#define int long long
 #define ll long long
@@ -12,7 +12,6 @@ using namespace std;
 
 signed main()
 {
-    IOS
+    IOS;
     
 }
-

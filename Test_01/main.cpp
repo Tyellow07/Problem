@@ -1,25 +1,16 @@
-//#include <bits/stdc++.h>
-//using namespace std;
+#include <bits/stdc++.h>
+#define IOS ios::sync_with_stdio(0), cin.tie(0), cout.tie(0)
+#define endl '\n'
 //#define int long long
-//vector <int> a;
-//
-//int merge_sort()
-//{
-//    
-//}
-//int32_t main()
-//{
-//    ios::sync_with_stdio(0);
-//    cin.tie(0);
-//    int n;
-//    while(static_cast<void>(cin >> n), n)
-//    {
-//        for(int i=0;i<n;i++)
-//        {
-//            int b;
-//            cin >> b;
-//            a.push_back(b);
-//        }
-//        merge_sort()
-//    }
-//}
+#define ll long long
+#define pii pair<int, int>
+#define pll pair<ll, ll>
+#define F first
+#define S second
+#define all(x) x.begin(), x.end()
+using namespace std;
+
+signed main()
+{
+    IOS;
+}

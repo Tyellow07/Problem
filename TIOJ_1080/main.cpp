@@ -1,14 +1,16 @@
-//
-//  main.cpp
-//  TIOJ_1080
-//
-//  Created by Tyson Huang on 2023/10/23.
-//
+#include <bits/stdc++.h>
+#define IOS ios::sync_with_stdio(0), cin.tie(0), cout.tie(0)
+#define endl '\n'
+//#define int long long
+#define ll long long
+#define pii pair<int, int>
+#define pll pair<ll, ll>
+#define F first
+#define S second
+#define all(x) x.begin(), x.end()
+using namespace std;
 
-#include <iostream>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+signed main()
+{
+    IOS;
 }

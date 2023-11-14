@@ -12,13 +12,20 @@
 #include <cstring>
 #include <iomanip>
 #include <ctime>
-#define IOS ios_base::sync_with_stdio(false), cin.tie(0), cout.tie(0);
-#define endl "\n"
+#define IOS ios::sync_with_stdio(0), cin.tie(0), cout.tie(0)
+#define endl '\n'
+//#define int long long
+#define ll long long
+#define pii pair<int, int>
+#define pll pair<ll, ll>
+#define F first
+#define S second
+#define all(x) x.begin(), x.end()
 using namespace std;
 
-int main()
+signed main()
 {
+    IOS;
     
-    
-    return 0;
 }
+
