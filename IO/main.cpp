@@ -10,8 +10,7 @@
 #define all(x) x.begin(), x.end()
 using namespace std;
 
-signed main()
-{
+signed main(){
     fast;
     
 }

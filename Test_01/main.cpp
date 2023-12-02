@@ -10,8 +10,22 @@
 #define all(x) x.begin(), x.end()
 using namespace std;
 
-signed main()
-{
+signed main(){
     fast;
-    
+    map<string,int>m;
+    m["true"]=1;
+    m["false"]=0;
+    m["1"]=1;
+    m["0"]=0;
+    m["-1"]=-1;
+    m["\"true\""]=4444;
+    m["\"false\""]=9999;
+    m["\"1\""]=1;
+    m["\"0\""]=0;
+    m["\"-1\""]=-1;
+    m["true"]=1;
+    m["true"]=1;
+    m["true"]=1;
+    m["true"]=1;
+
 }
