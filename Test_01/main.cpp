@@ -7,25 +7,20 @@
 #define pll pair<ll, ll>
 #define F first
 #define S second
+#define pb push_back
 #define all(x) x.begin(), x.end()
 using namespace std;
 
 signed main(){
     fast;
-    map<string,int>m;
-    m["true"]=1;
-    m["false"]=0;
-    m["1"]=1;
-    m["0"]=0;
-    m["-1"]=-1;
-    m["\"true\""]=4444;
-    m["\"false\""]=9999;
-    m["\"1\""]=1;
-    m["\"0\""]=0;
-    m["\"-1\""]=-1;
-    m["true"]=1;
-    m["true"]=1;
-    m["true"]=1;
-    m["true"]=1;
-
+    int n, m;
+    vector<int> a;
+    cin >> n >> m;
+    for(auto &A: a){
+        cin >> A;
+    }
+    sort(all(a));
+    while(m--){
+        
+    }
 }
