@@ -13,14 +13,24 @@ using namespace std;
 
 signed main(){
     fast;
-    int n, m;
-    vector<int> a;
+    int n, m, i, k;
     cin >> n >> m;
+    vector<int> a(n);
     for(auto &A: a){
         cin >> A;
     }
     sort(all(a));
     while(m--){
-        
+        int x;
+        cin >> x;
+        for(i=0;i+1<n;i++){
+            for(k=i+1;k<n;k++){
+                if(a[k]-a[i]==x) cout << "Yes" << endl;
+                else if(a[k]-a[i]>x) break;
+            }
+            if(a[k]-a[i]>x) break;
+        }
+        if(i+1==n)
+            cout << "NO" << endl;
     }
 }
