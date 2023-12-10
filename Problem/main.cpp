@@ -13,5 +13,7 @@ using namespace std;
 
 signed main(){
     fast;
-    
+    int a, b;
+    cin >> a >> b;
+    cout << a+b;
 }
