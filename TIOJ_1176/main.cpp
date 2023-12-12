@@ -1,3 +1,4 @@
+// 1176 . Cows
 #include <bits/stdc++.h>
 #define fast ios::sync_with_stdio(0), cin.tie(0), cout.tie(0)
 #define endl '\n'
@@ -18,5 +19,24 @@ using namespace std;
 
 signed main(){
     fast;
-    
+    int n,x;
+    cin >> n >> x;
+    vector<pii> v(n);
+    vector<int> ans(n);
+    v.push_back(mp(x, 0));
+    for(int i=1; i<n; i++){
+        cin >> x;
+        while(!v.empty() && x>=v.back().F){
+            ans[v.back().S] = i-v.back().S;
+            v.ppb();
+        }
+        v.push_back(mp(x, i));
+    }
+    while(!v.empty()){
+        ans[v.back().S] = n-1-v.back().S;
+        v.ppb();
+    }
+    for(int y:ans){
+        cout << y << endl;
+    }
 }
