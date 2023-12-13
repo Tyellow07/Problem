@@ -11,8 +11,8 @@
 #define pf push_front
 #define ppb pop_back
 #define ppf pop_front
-#define imp(x, y) insert(make_pair(x, y))
 #define mp(x, y) make_pair(x, y)
+#define imp(x, y) insert(make_pair(x, y))
 #define all(x) x.begin(), x.end()
 using namespace std;
 
